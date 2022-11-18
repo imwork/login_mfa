@@ -17,6 +17,6 @@
     "require": {
         "robthree/twofactorauth": "dev-master",
       "ext-json": "*",
-        "chillerlan/php-qrcode": "dev-main"
+        "chillerlan/php-qrcode": "2.0.8"
     }
 }
