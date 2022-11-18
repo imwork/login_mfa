@@ -1,5 +1,7 @@
 <?php
 use RobThree\Auth\TwoFactorAuth;
+use chillerlan\QRCode\QROptions;
+use chillerlan\QRCode\QRCode;
 
 class mfa
 {
@@ -25,6 +27,21 @@ class mfa
             return json_encode(['status' => 1,'data'=>['secret' => $secret,'text' => urlencode($text)]]);
         }
         return json_encode(['status' => 0,'data'=>['secret' => '','text' => '']]);
+    }
+
+
+    // 获取2fa二维码
+    public function qrcode(string $text,int $size = 5)
+    {
+        $options = new QROptions([
+            'version'    => 5,                             //二维码版本
+            'outputType' => QRCode::OUTPUT_IMAGE_JPG,      //生成图片
+            'eccLevel'   => QRCode::ECC_L,                 //错误级别
+            'scale'=>$size,                                   //二维码大小
+        ]);
+        $qrcode = new QRCode($options);
+        //将二维码直接生成base64格式的图片
+        return $qrcode->render($text);
     }
 
     /**

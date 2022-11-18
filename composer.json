@@ -16,6 +16,7 @@
     "minimum-stability": "dev",
     "require": {
         "robthree/twofactorauth": "dev-master",
-      "ext-json": "*"
+      "ext-json": "*",
+        "chillerlan/php-qrcode": "dev-main"
     }
 }
