@@ -5,7 +5,7 @@ use RobThree\Auth\TwoFactorAuth;
 use chillerlan\QRCode\QROptions;
 use chillerlan\QRCode\QRCode;
 
-class mfa
+class LoginMfa
 {
     private $issuer = 'MyApp';
 
