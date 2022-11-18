@@ -1,4 +1,6 @@
 <?php
+namespace Fish210717\LoginMfa;
+
 use RobThree\Auth\TwoFactorAuth;
 use chillerlan\QRCode\QROptions;
 use chillerlan\QRCode\QRCode;
