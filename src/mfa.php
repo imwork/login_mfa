@@ -14,7 +14,7 @@ class mfa
 
 
     // 获取2fa二维码和secret
-    public function create(string $userName,string $secret = '')
+    public function create(string $userName,string $secret = '') : string
     {
         $tfa = new TwoFactorAuth($this->issuer);
         if (!$secret) {
