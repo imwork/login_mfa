@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "59894e191f8d0287fb9b74497b349835",
+    "content-hash": "1a596a7d5d16154cfae28e41c3d3dbb1",
     "packages": [
         {
             "name": "chillerlan/php-qrcode",
@@ -133,16 +133,16 @@
         },
         {
             "name": "robthree/twofactorauth",
-            "version": "dev-master",
+            "version": "1.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RobThree/TwoFactorAuth.git",
-                "reference": "ba4e8c55ed150da31b92ce68ac93659926d8b3a4"
+                "reference": "65681de5a324eae05140ac58b08648a60212afc0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobThree/TwoFactorAuth/zipball/ba4e8c55ed150da31b92ce68ac93659926d8b3a4",
-                "reference": "ba4e8c55ed150da31b92ce68ac93659926d8b3a4",
+                "url": "https://api.github.com/repos/RobThree/TwoFactorAuth/zipball/65681de5a324eae05140ac58b08648a60212afc0",
+                "reference": "65681de5a324eae05140ac58b08648a60212afc0",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -152,7 +152,7 @@
                 ]
             },
             "require": {
-                "php": ">=7.0.0"
+                "php": ">=5.6.0"
             },
             "require-dev": {
                 "php-parallel-lint/php-parallel-lint": "^1.2",
@@ -162,7 +162,6 @@
                 "bacon/bacon-qr-code": "Needed for BaconQrCodeProvider provider",
                 "endroid/qr-code": "Needed for EndroidQrCodeProvider"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -206,15 +205,13 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-05-10T12:33:17+00:00"
+            "time": "2022-03-22T16:11:07+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "robthree/twofactorauth": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
