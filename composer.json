@@ -1,0 +1,21 @@
+{
+    "name": "fish/login_mfa",
+    "type": "1",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Fish\\LoginMfa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fish",
+            "email": "331496267@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "robthree/twofactorauth": "dev-master",
+      "ext-json": "*"
+    }
+}
