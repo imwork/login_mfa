@@ -1,6 +1,12 @@
 {
     "name": "fish210717/login_mfa",
-    "type": "1",
+    "description": "the google twofactorauth",
+    "type": "project",
+    "keywords": [
+        "mfa",
+        "twofactorauth",
+        "fish210717"
+    ],
     "license": "Apache-2.0",
     "autoload": {
         "psr-4": {
