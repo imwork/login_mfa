@@ -21,8 +21,9 @@
     ],
     "minimum-stability": "dev",
     "require": {
+        "php": ">=7.0.0",
         "robthree/twofactorauth": "^1.8.2",
-      "ext-json": "*",
-        "chillerlan/php-qrcode": "2.0.8"
+        "chillerlan/php-qrcode": "2.0.8",
+        "ext-json": "*"
     }
 }
